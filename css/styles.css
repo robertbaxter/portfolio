@@ -123,7 +123,7 @@ a {
 }
 
 a:hover {
-	color: #bec922;
+
 	text-decoration: underline;
 }
 
@@ -184,11 +184,14 @@ a:hover {
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
+	background-color: #514757;
 	color: #0b36a8; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
+	color: rgb(255, 255, 255);
 }
-
+.btn-solid-lg #btn-tjo {
+	background-color: red;
+}
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
@@ -727,10 +730,14 @@ input[type='checkbox'] {
 /*****************/
 .basic-4 {
 	padding-bottom: 1rem;
+	background-color: black;
+	color:#f7f9fb;
+	
 }
 
 .basic-4 .text-container {
 	margin-bottom: 1rem;
+	
 }
 
 .basic-4 .image-container {
@@ -757,7 +764,16 @@ input[type='checkbox'] {
 	transform: scale(1);
 	background: contain;
 	box-shadow: .2rem .2rem .2rem rgba(25, 26, 29, 0.158);
-} 
+}
+.basic-4 .btn-solid-lg{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 30%;
+	margin-top: -3rem;
+	margin-bottom: 1rem;
+}
 /* end of hover animation */
 
 
@@ -820,8 +836,8 @@ input[type='checkbox'] {
 /*     Questions     */
 /*********************/
 .accordion-1 {
-	padding-top: 7.75rem;
-	padding-bottom: 6.75rem;
+	padding-top: 2.75rem;
+	padding-bottom: 1.75rem;
 }
 
 .accordion-1 .h2-heading {
@@ -966,7 +982,7 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #060e1a url("../images/up-arrow.png") no-repeat center 47%;
+	background: #82b81f url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 	border: px solid #ffffff;
@@ -1062,6 +1078,8 @@ a:hover.back-to-top {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
 	/* end of extra pages */
+
+	
 }
 /* end of min-width 768px */
 
@@ -1259,6 +1277,10 @@ a:hover.back-to-top {
 	}
 	/* end of general styles */
 
+	.basic-4 .btn-solid-lg{
+		max-width: 20%;
+	}
+
 
 	/* Navigation */
 	.navbar .container {
@@ -1336,3 +1358,13 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+@media (max-width: 768px) {
+
+	.basic-4 .btn-solid-lg{
+		display: none;
+	}
+	
+
+	
+}
