@@ -730,13 +730,13 @@ input[type='checkbox'] {
 /*****************/
 .basic-4 {
 	padding-bottom: 1rem;
-	background-color: #000;
-	color:#f7f9fb;
+	background-color: #111929;
 	
 }
 
 .basic-4 .text-container {
 	margin-bottom: 1rem;
+	
 	
 }
 
@@ -773,6 +773,7 @@ input[type='checkbox'] {
 	max-width: 30%;
 	margin-top: -3rem;
 	margin-bottom: 1rem;
+	background-color: black;
 }
 /* end of hover animation */
 
@@ -898,7 +899,11 @@ input[type='checkbox'] {
 	padding-top: 2rem;
 	padding-bottom: 3rem;
 	text-align: center;
-	background-color: #000;
+
+}
+
+#contact {
+	background: #000;
 }
 
 .form-1 .h2-heading {
@@ -908,6 +913,9 @@ input[type='checkbox'] {
 
 .form-1 .p-heading {
 	margin-bottom: 4rem;
+}
+.form-1 a {
+	color: red;
 }
 
 
