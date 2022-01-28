@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer=""></script>
+    <link rel="stylesheet" href="../css/product-viewer.css"></script>
+    </head>
+<body>
+    <div id="card">
+        <model-viewer src="../nightgaunt.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="4.3" shadow-softness="1" exposure="2" camera-orbit="-415.3deg 100.7deg auto">
+        </model-viewer>
+        
+    </div>
+    <!-- use unique asset to ensure preloading -->
+      
+    
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</body>
+</html>

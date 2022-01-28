@@ -1,0 +1,36 @@
+body {
+    margin: 1em;
+    padding: 0;
+    font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+    color: #244376;
+    background-color: black;
+}
+  
+model-viewer {
+    width: 100%;
+    height: 50rem;
+
+    --poster-color: #ffffff00;
+    margin: auto;
+    padding: 0;
+}
+
+#card {
+    margin: 4em auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5em;
+}
