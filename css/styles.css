@@ -184,7 +184,7 @@ a:hover {
 }
 
 .btn-solid-lg:hover {
-	background-color: #514757;
+	background-color: #658af1;
 	color: #0b36a8; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 	color: rgb(255, 255, 255);
