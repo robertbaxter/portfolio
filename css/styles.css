@@ -895,9 +895,10 @@ input[type='checkbox'] {
 /*     Contact     */
 /*******************/
 .form-1 {
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
 	text-align: center;
+	background-color: #000;
 }
 
 .form-1 .h2-heading {
@@ -956,7 +957,7 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: .25rem;
-	background-color: #000000;
+	background-color: #111929;
 	text-align: center;
 }
 
@@ -1312,7 +1313,7 @@ a:hover.back-to-top {
 
 	.basic-1 .text-container.third {
 		margin-left: 2rem;
-
+		margin-top: .27rem;
 	}
 	
 	.first p{
