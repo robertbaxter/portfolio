@@ -735,7 +735,7 @@ input[type='checkbox'] {
 /********************/
 .basic-3 {
   padding-top: 5.25rem;
-
+  margin-bottom: 5rem;
   background-color: rgba(255, 255, 255, 0.89);
 }
 
@@ -743,6 +743,7 @@ input[type='checkbox'] {
   margin-bottom: 0.75rem;
   text-align: center;
   font-weight: 600;
+  margin-top: 2rem;
 }
 
 .basic-3 .p-heading {
@@ -751,11 +752,12 @@ input[type='checkbox'] {
 }
 
 .basic-3 .text-container {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .basic-3 .image-container {
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 
 /* Hover Animation */
@@ -768,6 +770,7 @@ input[type='checkbox'] {
 .basic-3 .image-container img {
   margin: 0 auto;
   transition: all 0.2s;
+  transform: scale(1.1);
 }
 
 .basic-3 .image-container:hover img {
@@ -776,8 +779,14 @@ input[type='checkbox'] {
   transform: scale(1.1);
 }
 
-#vacancies {
-  margin-top: 2rem;
+.image-container #vacancies {
+  margin-top: 5rem;
+}
+
+.image-container #landingpage {
+  margin-top: 8rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
 }
 /* end of hover animation */
 
@@ -833,7 +842,11 @@ input[type='checkbox'] {
 
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: rgba(159, 158, 248, 0.596);
+  background-color: transparent;
+  text-decoration: none;
+}
+.basic-4 .btn-outline-lg:hover {
+  background-color: #141d52;
 }
 
 /* end of hover animation */
