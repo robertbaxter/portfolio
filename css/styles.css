@@ -118,9 +118,12 @@ h6 {
 }
 
 a {
-  color: #4d5055;
+  color: #b2b7be;
 }
 
+.basic-4 a {
+  margin-left: 3rem;
+}
 a:hover {
   text-decoration: underline;
   cursor: none;
