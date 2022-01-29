@@ -190,7 +190,7 @@ a:hover {
   border: 1.5px solid #000000;
 }
 
-button.btn-outline-lg.tjo {
+button.btn-solid-lg.tjo {
   max-width: 15rem;
   background-color: #2b286b;
   display: flex;
