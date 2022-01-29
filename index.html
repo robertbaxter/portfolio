@@ -39,7 +39,7 @@
         <div class="container">
             
             <!-- Image Logo -->
-            <a href="#header"><h4 class="logo-text">Robert Baxter</h4></a>
+            <a href="#header" class="page-scroll"><h4 class="logo-text">Robert Baxter</h4></a>
             
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
@@ -74,13 +74,13 @@
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="https://github.com/robertbaxter">
+                        <a href="https://github.com/robertbaxter" target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-github fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="http://www.linkedin.com/in/robertbaxter96">
+                        <a href="http://www.linkedin.com/in/robertbaxter96" target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-linkedin fa-stack-1x"></i>
                         </a>
@@ -99,12 +99,19 @@
                 <div class="col-lg-6">
                     <div class="text-container">
                         <h1 class="h1-large animate__animated animate__fadeInLeft">I love to create beautiful, responsive, and exciting digital products.</h1>
-                        <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="#about">About Me</a>
-                        <a class="btn-outline-lg page-scroll animate__animated animate__fadeInRight" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
+                        <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="#about">About Me<i class="fa fa-arrow-right pl-2"></i></a>
+                        <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="#contact">Contact Me<i class="fas fa-envelope pl-2"></i></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
+        <div class="video-background">
+            <video id="main-video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" poster="img/backgrounds/1000x1500-media-bg-3.jpg">
+
+              <source type="video/mp4" src="video/video-2.mp4">
+
+            </video>
+          </div>
     </header> <!-- end of header -->
     <!-- end of header -->
 
@@ -117,6 +124,7 @@
                     <div class="text-container first">
                         <h2>Hi there, I'm Rob.</h2>
                         <p>Web developer, digital designer, video-game progammer. I am passionate about creating engaging, memorable, and efficient digital products and experiences for a variety of purposes.<br><br>I love going through the entire process with the customer from concept to deployment, ensuring that I build a close relationship with all of my clients to generate the best website or application for their needs.<br><br>I am actively seeking new freelance projects and employment opportunities.</p>
+                        <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="#portfolio">View My Portfolio</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-3 mt-4">
@@ -296,7 +304,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h3 class="text-white text-center">Featured Delivered Project</h3>
-                    <h4 class="text-center blue">The Job Office LTD - Rec2Rec Recruitment Agency</h4>
+                    <h4 class="text-center blue tjo">The Job Office LTD - Rec2Rec Recruitment Agency</h4>
                     <p class="text-left text-white">Full website re-design and development for a market-leading Rec2Rec recruitment agency, with a full job board for the client to post new vacancies, a front-end admin panel, and candidate application tracking functionality - all built using the popular hosting platform WordPress.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -310,7 +318,7 @@
                         </div> <!-- end of image-container -->
                         
                     </div> <!-- end of text-container -->
-                    <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight magic-hover magic-hover__square" href="http://www.thejoboffice.com" target="_blank" id="btn-jto">Visit The Job Office</a>
+                    <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="http://www.thejoboffice.com" target="_blank">Visit The Job Office</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -353,7 +361,7 @@
                             </div>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    The best way to reach me is through the contact form at the bottom of the page, or by emailing me at <a href="#contact" class="blue">robert@robertbaxter.co.uk</a><a></a>. For a fast quote, make sure you provide as many project details as possible.
+                                    The best way to reach me is through the contact form at the bottom of the page, or by emailing me at <a href="#contact" class="blue page-scroll">robert@robertbaxter.co.uk</a><a></a>. For a fast quote, make sure you provide as many project details as possible.
                                 </div>
                             </div>
                         </div>
@@ -420,18 +428,18 @@
                     <form id="contactForm">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
+                            <label class="label-control" for="cname">Name*</label>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
+                            <label class="label-control" for="cemail">Email*</label>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Project details</label>
+                            <label class="label-control" for="cmessage">Your Message*</label>
                         </div>
                         <div class="form-group pt-3">
-                            <button type="submit" class="form-control-submit-button">Send Me A Message</button>
+                            <button type="submit" class="form-control-submit-button">Send Message<i class="fa fa-arrow-right pl-2"></i></button>
                         </div>
                     </form>
                     <!-- end of contact form -->
