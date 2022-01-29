@@ -707,8 +707,9 @@ input[type='checkbox'] {
 /*     Projects     */
 /********************/
 .basic-3 {
-	padding-top: 3.25rem;
-	padding-bottom: 1rem;
+	padding-top: 5.25rem;
+	padding-bottom: 5.25rem;
+	
 	background-color: rgba(255, 255, 255, 0.89);
 }
 
@@ -716,19 +717,21 @@ input[type='checkbox'] {
 	margin-bottom: 0.75rem;
 	text-align: center;
 	font-weight: 600;
+	
 }
 
 .basic-3 .p-heading {
-	margin-bottom: 4rem;
+	margin-bottom: 5rem;
 	text-align: center;
 }
 
 .basic-3 .text-container {
 	margin-bottom: 4rem;
+	
 }
 
 .basic-3 .image-container {
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
 }
 
 /* Hover Animation */
@@ -755,7 +758,8 @@ input[type='checkbox'] {
 /*     Works     */
 /*****************/
 .basic-4 {
-	padding-bottom: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
 	background-color: #111929;
 	
 }
@@ -771,7 +775,7 @@ input[type='checkbox'] {
 
 .basic-4 .image-container {
 	margin-bottom: 1rem;
-	margin-top: -3rem;
+	margin-top: -1rem;
 }
 
 /* Hover Animation */
@@ -785,6 +789,7 @@ input[type='checkbox'] {
 	margin: 0 auto;
 	transition: all 0.2s;
 	transform: scale(.8);
+	box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.363);
 
 }
 
@@ -801,9 +806,9 @@ input[type='checkbox'] {
 	justify-content: center;
 	align-items: center;
 	max-width: 30%;
-	margin-top: -3rem;
+	margin-top:1rem;
 	margin-bottom: 1rem;
-	background-color: black;
+	background-color: rgba(159, 158, 248, 0.596);
 }
 /* end of hover animation */
 
