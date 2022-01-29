@@ -837,7 +837,7 @@ input[type='checkbox'] {
   background: contain;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(25, 26, 29, 0.158);
 }
-.basic-4 .btn-outline-lg {
+.basic-4 .btn-2 {
   margin: 0 auto;
   color: white;
   margin-top: 1rem;
@@ -847,24 +847,13 @@ input[type='checkbox'] {
   min-width: 10rem;
   margin-left: 10rem;
   border-radius: 1rem;
+  padding: 0.8rem 2rem;
 }
-.basic-4 .btn-outline-lg:hover {
+
+.basic-4 .btn-2:hover {
   background-color: #8795e7;
 }
-.basic-4 .btn-solid-lg {
-  margin: 0 auto;
-  color: white;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: rgb(66, 67, 144);
-  text-decoration: none;
-  min-width: 10rem;
-  margin-left: 10rem;
-  border-radius: 1rem;
-}
-.basic-4 .btn-solid-lg:hover {
-  background-color: #8795e7;
-}
+
 /* end of hover animation */
 
 /************************/
