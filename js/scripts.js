@@ -55,6 +55,8 @@
 			$(this).removeClass('notEmpty');
 		}
 	});
+
+    
 	
 
     /* Back To Top Button */
