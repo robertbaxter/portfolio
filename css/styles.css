@@ -180,7 +180,6 @@ a:hover {
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
-  min-width: 10rem;
 }
 
 .btn-solid-lg:hover {
@@ -781,7 +780,7 @@ input[type='checkbox'] {
 }
 
 .image-container #vacancies {
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .image-container #landingpage {
@@ -797,10 +796,10 @@ input[type='checkbox'] {
 .basic-4 {
   padding-top: 3rem;
   padding-bottom: 6rem;
-  background-color: #111929;
+  background-color: #0f1524;
 }
 .basic-4 h4 {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.664);
 }
 
@@ -810,12 +809,12 @@ input[type='checkbox'] {
 
 .basic-4 .image-container {
   margin-bottom: 1rem;
-  margin-top: -1rem;
+  margin-top: 0rem;
 }
 
 .basic-4 img {
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.479);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* Hover Animation */
@@ -827,13 +826,13 @@ input[type='checkbox'] {
 .basic-4 .image-container img {
   margin: 0 auto;
   transition: all 0.2s;
-  transform: scale(0.8);
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.363);
+  transform: scale(0.9);
+  box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.363);
 }
 
 .basic-4 .image-container:hover img {
-  -moz-transform: scale(0.85);
-  -webkit-transform: scale(0.85);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
   transform: scale(1);
   background: contain;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(25, 26, 29, 0.158);
@@ -845,9 +844,12 @@ input[type='checkbox'] {
   margin-bottom: 1rem;
   background-color: rgb(66, 67, 144);
   text-decoration: none;
+  min-width: 10rem;
+  margin-left: 10rem;
+  border-radius: 1rem;
 }
 .basic-4 .btn-outline-lg:hover {
-  background-color: #141d52;
+  background-color: #8795e7;
 }
 
 /* end of hover animation */
