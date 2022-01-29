@@ -180,6 +180,7 @@ a:hover {
   line-height: 0;
   text-decoration: none;
   transition: all 0.2s;
+  min-width: 10rem;
 }
 
 .btn-solid-lg:hover {
