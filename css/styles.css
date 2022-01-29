@@ -538,8 +538,8 @@ input[type='checkbox'] {
 .header {
 
 	margin-top: -5rem;
-	padding-bottom: 2rem;
-	margin-bottom: -5rem;
+	padding-bottom: 6rem;
+	
 	background-size: cover;
 	text-align: center;
 	overflow-x: hidden;
@@ -550,9 +550,10 @@ input[type='checkbox'] {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	object-fit: cover;
+	object-fit: auto;
 	height: 100%;
 	width: 100%;
+
 }
 
 .header .h1-large {
