@@ -839,10 +839,10 @@ input[type='checkbox'] {
 }
 .basic-4 .btn-outline-lg {
   margin: 0 auto;
-
+  color: white;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: transparent;
+  background-color: rgb(66, 67, 144);
   text-decoration: none;
 }
 .basic-4 .btn-outline-lg:hover {
