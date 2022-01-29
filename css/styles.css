@@ -596,7 +596,6 @@ input[type='checkbox'] {
   }
   
   #main-video {
-	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
