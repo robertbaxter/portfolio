@@ -536,13 +536,13 @@ input[type='checkbox'] {
 /*     Header     */
 /******************/
 .header {
-	margin-top: -5rem;
-	margin-bottom: -5rem;
-	padding-bottom: 1rem;
 
+	margin-top: -5rem;
+	padding-bottom: 2rem;
+	margin-bottom: -5rem;
 	background-size: cover;
 	text-align: center;
-	overflow: hidden;
+	overflow-x: hidden;
 	
 }
 .header img{
@@ -550,8 +550,8 @@ input[type='checkbox'] {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	overflow: hidden;
-	height: 100vh;
+	object-fit: cover;
+	height: 100%;
 	width: 100%;
 }
 
