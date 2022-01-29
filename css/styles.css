@@ -192,7 +192,7 @@ a:hover {
 
 .btn-outline-lg.tjo {
   max-width: 15rem;
-  background-color: #061531;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,7 +225,7 @@ a:hover {
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
   border: 1px solid #24262a;
   background-color: transparent;
-  color: #24262a;
+  color: #c7c9cc;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0;
