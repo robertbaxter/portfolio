@@ -223,8 +223,8 @@ button.btn-solid-lg.tjo {
 .btn-outline-lg {
   display: inline-block;
   padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #24262a;
-  background-color: transparent;
+  border: 1px solid #ffffff;
+  background-color: #415ba0;
   color: #c7c9cc;
   font-weight: 600;
   font-size: 0.875rem;
@@ -234,7 +234,7 @@ button.btn-solid-lg.tjo {
 }
 
 .btn-outline-lg:hover {
-  background-color: #24262a;
+  background-color: #648ddf;
   color: #ffffff;
   text-decoration: none;
 }
