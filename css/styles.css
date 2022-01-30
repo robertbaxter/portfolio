@@ -570,8 +570,11 @@ input[type='checkbox'] {
 }
 
 .header .btn-solid-lg:hover {
-  border: 1px solid #ffffff;
   color: #ffffff;
+  background-color: #2259ec;
+}
+.header .btn-solid-lg {
+  margin: 0.25rem;
 }
 
 .header .btn-outline-lg {
