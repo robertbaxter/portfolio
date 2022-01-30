@@ -1250,9 +1250,10 @@ a:hover.back-to-top {
 
   /* Header */
   .header {
-    padding-top: 20rem;
-    padding-bottom: 20rem;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
     text-align: left;
+    height: 100vh;
     
   }
   .header img{
