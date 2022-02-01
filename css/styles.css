@@ -1272,9 +1272,10 @@ a:hover.back-to-top {
     height: 100%;
   }
   .header h1 {
-    font-size: 4rem;
-    line-height: 3.5rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
     margin-top: 15rem;
+    margin-bottom: 2rem;
   }
   .header img {
     object-fit: cover;
