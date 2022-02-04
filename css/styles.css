@@ -736,22 +736,21 @@ input[type='checkbox'] {
 /********************/
 /*     Projects     */
 /********************/
+
+#portfolio h2 {
+  color: white;
+  text-shadow: 0.25rem 0.25rem 0.25rem #0d0d1b;
+}
 .basic-3 {
   padding-top: 5.25rem;
-  margin-bottom: 5rem;
-  background-color: rgba(255, 255, 255, 0.89);
-}
-
-.basic-3 .h2-heading {
-  margin-bottom: 0.75rem;
-  text-align: center;
-  font-weight: 600;
-  margin-top: 2rem;
+  padding-bottom: 5rem;
+  background-color: rgba(0, 0, 0, 0.89);
 }
 
 .basic-3 .p-heading {
   margin-bottom: 5rem;
   text-align: center;
+  color: black;
 }
 
 .basic-3 .text-container {
@@ -768,17 +767,13 @@ input[type='checkbox'] {
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0.2rem;
 }
 
 .basic-3 .image-container img {
-  margin: 0 auto;
+  margin: 0.25rem auto;
   transition: all 0.2s;
-  transform: scale(1.1);
-}
-
-.basic-3 .image-container:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -789,6 +784,43 @@ input[type='checkbox'] {
 .image-container #landingpage {
   margin-top: 3rem;
 }
+
+#card {
+  background-color: rgb(10, 6, 29);
+  margin: 0.6rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.829);
+  border: 1px solid #648ddf49;
+  border-radius: 0.5rem;
+}
+
+#card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  cursor: pointer;
+}
+
+.basic-3 strong {
+  color: cyan;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+.basic-3 p {
+  color: white;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#portfolio .btn {
+  margin-top: 1rem;
+  width: 70%;
+  transform: translateX(25%);
+}
+
 /* end of hover animation */
 
 /*****************/
