@@ -97,7 +97,7 @@
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="container">
+        <div class="container particles-js">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
@@ -106,8 +106,10 @@
                         <a class="btn-solid-lg page-scroll rounded animate__animated animate__fadeInRight" href="#contact">Contact Me<i class="fas fa-envelope pl-2"></i></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
+                <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"><script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- particles.js lib -->
             </div> <!-- end of row -->
-            <img src="images/header-background.jpg" class="img img-fluid img-responsive">
+            
+            <!-- <img src="images/header-background.jpg" class="img img-fluid img-responsive"> -->
         </div> <!-- end of container -->
         
     </header> <!-- end of header -->
@@ -153,7 +155,7 @@
     <!-- end of about -->
 
     <!-- Projects -->
-    <div id="projects" class="basic-4">
+    <div id="projects" class="basic-4 animate__animated animate__fadeIn">
         <div class="container pt-5">
             <div class="row">
                 <div class="col-lg-6">
@@ -193,7 +195,7 @@
 
 
     <!-- Works -->
-    <div id="portfolio" class="basic-3">
+    <div id="portfolio" class="basic-3 parallax">
         <h2 class="portfolio-h2 text-center pt-2 pb-2">My Web Design & Development Portfolio</h2>
         <div class="container text-white">
             <div class="row">
@@ -304,7 +306,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading text-light">My Skills</h2>
+                    <h2 class="h2-heading text-light">My Skill Set</h2>
                     <p class="p-heading text-light">I have over 8 years experience in web design, game programming, and development.<br>Below is a list of all the ways in which I can help make a powerful impression in the digital world.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -509,6 +511,7 @@
     <script src="./js/scripts.js"></script> <!-- Custom scripts -->
     <script src="./js/tilt.js"></script>
     <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1597754761/magicmouse/magic_mouse-1.0.js"></script> <!--Magic Mouse-->
+    <script src="./js/app.js"></script><!--Particles JS-->
     <script type="text/javascript">
         options = {
         "cursorOuter": "circle-basic",
