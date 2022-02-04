@@ -739,7 +739,7 @@ input[type='checkbox'] {
 
 #portfolio h2 {
   color: white;
-  text-shadow: 0.25rem 0.25rem 0.25rem #0d0d1b;
+  text-shadow: 0.25rem 0.25rem 0.25rem #000000;
 }
 .basic-3 {
   padding-top: 5.25rem;
@@ -787,28 +787,30 @@ input[type='checkbox'] {
 
 #card {
   background-color: rgb(10, 6, 29);
-  margin: 0.6rem;
+  margin: 0.4rem;
   padding: 1rem;
   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.829);
   border: 1px solid #648ddf49;
   border-radius: 0.5rem;
+  word-wrap: normal;
 }
 
 #card a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: white;
   cursor: pointer;
 }
 
 .basic-3 strong {
-  color: cyan;
+  color: rgb(198, 255, 255);
   margin-top: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
 }
 .basic-3 p {
-  color: white;
+  color: rgb(213, 206, 245);
   font-size: 0.95rem;
   margin-top: 0.5rem;
   padding-bottom: 0;
@@ -817,8 +819,6 @@ input[type='checkbox'] {
 
 #portfolio .btn {
   margin-top: 1rem;
-  width: 70%;
-  transform: translateX(25%);
 }
 
 /* end of hover animation */
