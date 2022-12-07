@@ -665,6 +665,7 @@ input[type='checkbox'] {
   margin-top: 1.5rem;
   color: #111929;
   margin-bottom: 1rem;
+  margin-left: auto;
 }
 
 .basic-1 .time {
@@ -1522,3 +1523,14 @@ a:hover.back-to-top {
   /* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.portfolio-btn{
+  display: flex;
+  background-color: #000;
+  position: relative;
+  justify-content: center;
+  width: 20rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
