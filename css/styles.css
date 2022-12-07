@@ -432,9 +432,9 @@ input[type='checkbox'] {
   color: #ffffff;
   font-weight: 700;
   font-size: 1.75rem;
-  line-height: 1rem;
+
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
 
   text-shadow: 0.15rem 0.15rem 0.15rem rgba(0, 0, 0, 0.664);
 }
